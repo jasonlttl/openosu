@@ -6,8 +6,6 @@
     "prefer-stable": true,
     "require": {
         "acquia/blt": "^8.3",
-        "acquia/lightning": "2.0.3",
-        "drupal/acquia_connector": "^1.5.0",
         "drupal/acsf": "^1.32.0",
         "drupal/cog": "^1.0.0",
         "drupal/core": "^8.0",
@@ -16,7 +14,8 @@
         "drupal/seckit": "^1.0.0-alpha2",
         "drupal/security_review": "*",
         "drupal/shield": "^1.0.0",
-        "drush/drush": "^8.1.8"
+        "drush/drush": "^8.1.8",
+        "drupal/acquia_connector": "^1.5.0"
     },
     "require-dev": {
         "behat/behat": "^3.1",
@@ -28,7 +27,8 @@
         "drupal-composer/drupal-scaffold": "^2.1.0",
         "jarnaiz/behat-junit-formatter": "^1.3.2",
         "se/selenium-server-standalone": "^2.53",
-        "jakoch/phantomjs-installer": "^2.1.1-p07"
+        "jakoch/phantomjs-installer": "^2.1.1-p07",
+        "geerlingguy/drupal-vm": "~4.2"
     },
     "repositories": {
         "drupal": {

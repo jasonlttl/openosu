@@ -1,0 +1,7 @@
+name: 'OSU Core'
+type: module
+description: 'Core configuration for Open OSU'
+core: 8.x
+package: osu
+dependencies:
+

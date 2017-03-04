@@ -761,3 +761,5 @@ if (isset($_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR']) && file_exists($_SERVER['D
   require $_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR'] . '/loc_docroot_dd.inc';
 }
 // </DDSETTINGS>
+require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
+$settings['install_profile'] = 'osu';
