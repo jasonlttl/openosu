@@ -1,6 +1,6 @@
 project:
   machine_name: openosu
-  prefix: BLT
+  prefix: osu
   human_name: 'Open OSU'
   profile:
     name: osu
