@@ -1,7 +1,7 @@
 project:
   machine_name: openosu
   prefix: BLT
-  human_name: 'BLTed 8'
+  human_name: 'Open OSU'
   profile:
     name: lightning
   local:
