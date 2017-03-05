@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: Widescreen
+id: widescreen
+description: 'A cropping ratio modeled after modern tvs.'
+aspect_ratio: '16:9'
+soft_limit_width: 1920
+soft_limit_height: 1080
+hard_limit_width: 1920
+hard_limit_height: 1080

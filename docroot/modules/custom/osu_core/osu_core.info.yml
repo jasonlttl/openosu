@@ -4,4 +4,14 @@ description: 'Core configuration for Open OSU'
 core: 8.x
 package: osu
 dependencies:
-
+  - block
+  - block_content
+  - contact
+  - crop
+  - file
+  - menu_link_content
+  - node
+  - shortcut
+  - taxonomy
+  - tour
+  - user
