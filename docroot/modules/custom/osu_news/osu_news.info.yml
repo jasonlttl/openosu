@@ -1,0 +1,15 @@
+name: 'OSU News'
+type: module
+description: 'News feature for Open OSU'
+core: 8.x
+package: osu
+dependencies:
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - osu_core
+  - path
+  - text
+  - user
