@@ -11,3 +11,4 @@ dependencies:
   - path
   - text
   - user
+  - paragraphs

@@ -41,6 +41,8 @@ dependencies:
   - tour
   - automated_cron
   - osu_core
+  - osu_content
+  - osu_news
 themes:
   - bartik
   - seven
