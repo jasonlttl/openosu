@@ -1,0 +1,14 @@
+name: News
+type: module
+core: 8.x
+package: osu_content
+dependencies:
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - osu_content
+  - path
+  - text
+  - user

@@ -1,0 +1,37 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.image_standard
+    - node.type.osu_news
+  module:
+    - image
+id: node.osu_news.image_standard
+field_name: image_standard
+entity_type: node
+bundle: osu_news
+label: 'Standard Image'
+description: 'Standard, 4:3 aspect ratio, images are often used in listings such as carousels.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'images/standard/[date:custom:Y]/[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: 2MB
+  max_resolution: 2048x1536
+  min_resolution: 640x480
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

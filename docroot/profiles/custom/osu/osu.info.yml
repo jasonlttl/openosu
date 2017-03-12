@@ -12,8 +12,10 @@ dependencies:
   - color
   - config
   - comment
+  - config_update
   - contextual
   - contact
+  - features
   - menu_link_content
   - datetime
   - block_content

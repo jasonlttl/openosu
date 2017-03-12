@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.teaser
+    - node.type.osu_news
+id: node.osu_news.teaser
+field_name: teaser
+entity_type: node
+bundle: osu_news
+label: Teaser
+description: 'Used as the description in listings and as the default text for social media.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

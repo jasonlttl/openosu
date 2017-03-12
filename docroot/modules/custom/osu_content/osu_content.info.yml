@@ -1,0 +1,13 @@
+name: Content Core
+type: module
+package: osu_content
+core: 8.x
+dependencies:
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - path
+  - text
+  - user

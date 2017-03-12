@@ -16,11 +16,3 @@ use Drupal\Core\Form\FormStateInterface;
 function osu_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
   $form['#submit'][] = 'osu_form_install_configure_submit';
 }
-
-/**
- * Submission handler to sync the contact.form.feedback recipient.
- */
-function osu_form_install_configure_submit($form, FormStateInterface $form_state) {
-  $site_mail = $form_state->getValue('site_mail');
-  ContactForm::load('feedback')->setRecipients([$site_mail])->trustData()->save();
-}

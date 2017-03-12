@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.osu_news.body
+    - field.field.node.osu_news.image_banner
+    - field.field.node.osu_news.image_square
+    - field.field.node.osu_news.image_standard
+    - field.field.node.osu_news.teaser
+    - node.type.osu_news
+  module:
+    - text
+    - user
+id: node.osu_news.teaser
+targetEntityType: node
+bundle: osu_news
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  image_banner: true
+  image_square: true
+  image_standard: true
+  teaser: true
