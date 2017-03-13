@@ -10,7 +10,8 @@ project:
 git:
   default_branch: master
   remotes: {  }
-  commit-msg: false
+  hooks:
+    commit-msg: false
 drush:
   aliases:
     remote: '${project.machine_name}.test'
