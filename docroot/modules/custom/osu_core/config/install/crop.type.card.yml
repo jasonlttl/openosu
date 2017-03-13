@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: Card
+id: card
+description: 'A rectangular cropping ratio suitable for a card header.'
+aspect_ratio: '9:5'
+soft_limit_width: 1280
+soft_limit_height: 800
+hard_limit_width: 320
+hard_limit_height: 200
