@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-label: Card
+label: 'Card (9:5)'
 id: card
 description: 'A rectangular cropping ratio suitable for a card header.'
 aspect_ratio: '9:5'

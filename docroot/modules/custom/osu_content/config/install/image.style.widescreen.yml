@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+name: widescreen
+label: 'Widescreen (16:9)'
+effects:
+  38658210-daed-489a-9f83-04b654e98ff3:
+    uuid: 38658210-daed-489a-9f83-04b654e98ff3
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: widescreen

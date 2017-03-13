@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-label: Banner
+label: 'Banner (4:1)'
 id: banner
 description: 'A banner cropping ratio designed for use as a page header.'
 aspect_ratio: '4:1'

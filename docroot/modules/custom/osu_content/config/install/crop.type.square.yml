@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: 'Square (1:1)'
+id: square
+description: 'A square crop suitable for thumbnails.'
+aspect_ratio: '1:1'
+soft_limit_width: 480
+soft_limit_height: 480
+hard_limit_width: 480
+hard_limit_height: 480

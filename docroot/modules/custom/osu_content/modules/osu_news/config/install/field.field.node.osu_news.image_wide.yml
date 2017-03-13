@@ -2,26 +2,26 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.image_standard
+    - field.storage.node.image_wide
     - node.type.osu_news
   module:
     - image
-id: node.osu_news.image_standard
-field_name: image_standard
+id: node.osu_news.image_wide
+field_name: image_wide
 entity_type: node
 bundle: osu_news
-label: 'Standard Image'
-description: 'Standard, 4:3 aspect ratio, images are often used in listings such as carousels.'
+label: 'Wide Image'
+description: 'Used in banners and info cards'
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: 'images/standard/[date:custom:Y]/[date:custom:m]'
+  file_directory: 'images/wide/[date:custom:Y]/[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: 2MB
-  max_resolution: 2048x1536
-  min_resolution: 640x480
+  max_resolution: 2280x2280
+  min_resolution: 1140x320
   alt_field: true
   alt_field_required: true
   title_field: false

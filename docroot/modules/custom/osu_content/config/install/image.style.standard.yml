@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+name: standard
+label: 'Standard (4:3)'
+effects:
+  5994bb01-bc36-4b74-a429-fcbd7d3d5eb5:
+    uuid: 5994bb01-bc36-4b74-a429-fcbd7d3d5eb5
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: standard

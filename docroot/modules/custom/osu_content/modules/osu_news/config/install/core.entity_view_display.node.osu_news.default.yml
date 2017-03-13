@@ -3,9 +3,8 @@ status: true
 dependencies:
   config:
     - field.field.node.osu_news.body
-    - field.field.node.osu_news.image_banner
     - field.field.node.osu_news.image_square
-    - field.field.node.osu_news.image_standard
+    - field.field.node.osu_news.image_wide
     - field.field.node.osu_news.teaser
     - node.type.osu_news
   module:
@@ -23,14 +22,6 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
-  image_banner:
-    weight: 104
-    label: above
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
   image_square:
     weight: 105
     label: above
@@ -39,8 +30,8 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
-  image_standard:
-    weight: 103
+  image_wide:
+    weight: 106
     label: above
     settings:
       image_style: ''

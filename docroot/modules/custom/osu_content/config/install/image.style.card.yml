@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+name: card
+label: 'Card (9:5)'
+effects:
+  1b6e4ef1-d501-4c25-ade8-a35aca25eb0d:
+    uuid: 1b6e4ef1-d501-4c25-ade8-a35aca25eb0d
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: card

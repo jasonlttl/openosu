@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-label: Widescreen
+label: 'Widescreen (16:9)'
 id: widescreen
 description: 'A cropping ratio modeled after modern tvs.'
 aspect_ratio: '16:9'

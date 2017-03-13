@@ -6,6 +6,7 @@ dependencies:
   - field
   - file
   - image
+  - image_widget_crop
   - menu_ui
   - node
   - osu_content

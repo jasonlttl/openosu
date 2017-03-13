@@ -1,14 +1,16 @@
-name: Content Core
+name: 'Content Core'
 type: module
 package: osu_content
 core: 8.x
 dependencies:
+  - crop
   - field
   - file
   - image
+  - image_widget_crop
   - menu_ui
   - node
+  - paragraphs
   - path
   - text
   - user
-  - paragraphs
